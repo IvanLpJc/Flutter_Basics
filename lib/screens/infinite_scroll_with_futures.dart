@@ -1,4 +1,5 @@
 import 'package:fl_components/theme/app_theme.dart';
+import 'package:fl_components/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class InfiniteScrollWithFuturesScreen extends StatefulWidget {
@@ -118,31 +119,9 @@ class _InfiniteScrollWithFuturesScreenState
                   // Calculamos el punto central de la pantalla y le restamos la
                   // mitad de la anchura del widget para que así se quede centrado
                   left: size.width * 0.5 - 30,
-                  child: const _LoadingIcon()),
+                  child: const LoadingIcon()),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class _LoadingIcon extends StatelessWidget {
-  const _LoadingIcon({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 60,
-      height: 60,
-      child: const CircularProgressIndicator(
-        color: AppTheme.primary,
-      ),
-      padding: const EdgeInsets.all(10),
-      decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.9),
-        shape: BoxShape.circle,
       ),
     );
   }

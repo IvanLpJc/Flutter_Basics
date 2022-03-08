@@ -62,8 +62,9 @@ class _PokemonListScreenState extends State<PokemonListScreen> {
             return Text('${snapshot.error}');
           }
 
-          return const CircularProgressIndicator(
+          return const LinearProgressIndicator(
             color: AppTheme.primary,
+            value: null,
           );
         },
       ),
@@ -94,8 +95,10 @@ class ListCustom extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) =>
-                            PokemonScreen(url: list[index]['url'])));
+                        builder: (context) => PokemonScreen(
+                              url: list[index]['url'],
+                              name: list[index]['name'],
+                            )));
               },
             ),
         separatorBuilder: (_, __) => const Divider());
