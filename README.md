@@ -1,16 +1,63 @@
-# fl_components
+# Flutter basics
+## Flutter project with the basics of the framework.
+---
 
-A new Flutter project.
+This project is from the Udemy course: 
 
-## Getting Started
+- **Flutter: Tu guía completa de desarrollo para IOS y Android**
 
-This project is a starting point for a Flutter application.
+As extension of the section I created another screen loading data from the [Pokemon API](https://pokeapi.co/).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this section, the Flutter widgets used are:
+- *Scaffold*
+- *AppBar*
+- *Text*
+- *ListView*
+    - *ListView.separated* 
+- *Navigator*
+- *Icon*
+- *Icons*
+- *Divider*
+- *Column*
+- *Row*
+- *Slider*
+    - *Slider.adaptative* 
+- *Checkbox*
+    - *CheckboxListTile*
+- *Switch*
+    - *SwitchListTile*
+- *AboutListTile*
+- *Expanded*
+- *SingleChildScrollView*
+- *FadeInImage*
+- *NetworkImage*
+- *AssetImage*
+- *BoxFit*
+- *Padding*
+- *EdgeInsets*
+- *Form*
+- *TextFormField*
+- *SizedBox*
+- *TextInputType*
+- *DropdownButtonFormField*
+    -*DropdownMenuItem*
+- *ElevatedButton*
+- *Center*
+- *Container*
+- *CircleAvatar*
+- *NetworkImage*
+- *FlutterLogo*
+- *TextButton*
+- *CupertinoAlertDialog*
+- *AlertDialog*
+- *RoundedRectangleBorder*
+- *FloatingActionButton*
+- *AnimatedContainer*
+- *Future*
+- *MediaQuery*
+- *Positioned*
+- *RefreshIndicator*
+- *Stack*
+- *Card*
+- *FutureBuilder*
